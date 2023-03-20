@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #ccc;}
+
+/* 탭메뉴 꾸미기 */
+.tab{
+  width:100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tabnav{
+  overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 10px #dddddd;
+}
+
+.tabcontent {
+  width: 1320px;
+  padding: 0 96px;
+  margin: 80px auto;
+  box-sizing: border-box;
+}
+
+.tabnav li a{ 
+  display: block;
+  font-size: 20px;
+  padding: 20px 40px;
+  position: relative;
+  margin: 0 20px;
+  z-index: 2;
+}
+
+/* 탭메뉴 클릭했을 때 변화 꾸미기 */
+.tabnav li .active{
+  border-bottom: 2px solid #ffa826;
+}
+.tabnav li a:hover,
+.tabnav li a.active{
+  font-weight: 600;
+  color:#000; 
+}
+
+/* 탭컨테츠 꾸미기 */
+.tabcontent{
+  position: relative;
+  top: -1px;
+}

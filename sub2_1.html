@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신청하기</title>
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- 내 css -->
+    <link rel="stylesheet" href="./css/reservation.css">
+</head>
+
+<body>
+    <div class="all">
+        <h1>클래스 신청 및 예약하기</h1>
+        <h4>개인정보를 반드시 정확하게 작성해주세요<br>
+            클래스 예약 후 확정문자를 보내드려요</h4>
+        <div class="line"></div>
+        <form action="#" method="post">
+            <h3><span>｜</span>신청자 정보 입력</h3>
+            <ul class="inform">
+                <li>
+                    <label>성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;명 <input type="text" placeholder="이름을 입력해주세요"></label>
+                </li>
+                <li>
+                    <label>휴대전화 <input type="tel" placeholder="'-'없이 입력해주세요"></label>
+                    <a href="#" class="check">인&nbsp;&nbsp;&nbsp;&nbsp;증</a>
+                </li>
+                <li>
+                    <label>인증번호 <input type="text" placeholder="인증번호 발송 후 입력해주세요"></label>
+                    <a href="#" class="check2">확&nbsp;&nbsp;&nbsp;&nbsp;인</a>
+                </li>
+            </ul>
+            <div class="box">
+                <h5>인증번호는 카카오톡 알림톡으로 전송됩니다</h5>
+            </div>
+
+            <h3><span>｜</span>클래스 선택</h3>
+            <ul>
+                <li>
+                    <select>
+                        <option value="oneday">원데이 클래스</option>
+                        <option value="fonud">창업반</option>
+                    </select>
+                </li>
+                <li>
+                    <select>
+                        <option value="menu">오픈 초코 케이크</option>
+                        <option value="menu2">크로아상</option>
+                        <option value="menu3">레몬 마카롱</option>
+                        <option value="menu4">순수 딸기롤</option>
+                    </select>
+                </li>
+            </ul>
+
+            <h3><span>｜</span>일정 선택</h3>
+            <p><input type="datetime-local" value="날짜"></p>
+        </form>
+
+        <div class="button">
+            <a href="./index.html">예약하기</a>
+        </div>
+    </div>
+</body>
+
+</html>

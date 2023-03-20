@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 슬라이드배너 꾸미기 */
+.sec2 {
+	position: relative;
+}
+.gallery {
+	width: 1320px;
+	margin: 50px auto;
+	padding: 0 50px 40px;
+	box-sizing: border-box;
+	top: 80px;
+	left: 800px;
+	position: absolute;
+}
+
+.gallery_inner {
+	width: 100%;
+	overflow: hidden;
+}
+
+.gallery .swiper-slide {
+	padding: 10px 0;
+}
+
+.gallery .swiper-slide img:hover {
+	box-shadow: 0px 0px 0 #d3b551;
+    transform:translate(5px, 5px);
+    transition: all 0.5s;
+}
+
+.gallery .swiper-slide img {
+	display: block;
+	width: 100%;
+	box-shadow: 5px 5px 8px  #d3b551;
+    border-radius: 0px 22px 12px 12px;
+}
+
+/*이동버튼 영역 색상 바꾸기*/
+.gallery .swiper-button-prev {
+	color: #000000;
+}
+
+/*이동버튼 영역 호버 시 색상 바꾸기*/
+.gallery .swiper-button-prev:hover {
+	color: #edbb53;
+}
+
+.gallery .swiper-button-prev,
+.gallery .swiper-button-prev:hover {
+	position: absolute;
+	top: 240px;
+	left: -40px;
+}
+
+
+/* 이동버튼 이미지로 바꾸기
+.gallery .swiper-button-prev,
+.gallery .swiper-button-next{
+	width: 50px;
+	height: 50px;
+}
+.gallery .swiper-button-prev:after,
+.gallery .swiper-button-next:after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.gallery .swiper-button-prev:after{
+	background: url(../images/prev.png);
+}
+.gallery .swiper-button-next:after{
+	background: url(../images/next.png);
+}
+ */
+

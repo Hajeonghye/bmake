@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 슬라이드배너 꾸미기 */
+.slide {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.slide .swiper-slide a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.slide .swiper-slide img {
+	display: block;
+	width: 100%;
+}
+
+/*이동버튼 영역 색상 바꾸기*/
+.slide .swiper-button-prev,
+.slide .swiper-button-next {
+	color:#fff;
+}
+
+/*이동버튼 영역 호버 시 색상 바꾸기*/
+.slide .swiper-button-prev:hover,
+.slide .swiper-button-next:hover {
+	color: #aaa
+}
+
+/* 이동버튼 이미지로 바꾸기
+.slide .swiper-button-prev,
+.slide .swiper-button-next{
+	width: 50px;
+	height: 50px;
+}
+.slide .swiper-button-prev:after,
+.slide .swiper-button-next:after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.slide .swiper-button-prev:after{
+	background: url(../images/prev.png);
+}
+.slide .swiper-button-next:after{
+	background: url(../images/next.png);
+}
+ */
+
+ /* 블릿버튼 크기, 색상, 투명도 */
+.slide .swiper-pagination-bullet {
+	background: rgb(77, 77, 77);
+	width: 10px;
+	height: 10px;
+	opacity: 0.5;
+}
+
+/* 블릿버튼 페이지 표시날 때 투명도 */
+.slide .swiper-pagination-bullet-active {
+	opacity: 1;
+}
+
+/* 블릿버튼 위치 */
+.slide .swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: 0px;
+}
+
+
+
+
+/* 본문 슬라이드 */
+
+/* 추천 클래스 */
+.slide2 {
+	width: 100%;
+	height: 645px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide2 .swiper-slide {
+	background-color: #fff5de;
+	margin-top: 31px;
+	padding-top: 109px;
+	text-align: left;
+	/* Center slide text vertically */
+}
+
+.slide2 .swiper-button-prev,
+.slide2 .swiper-button-next{
+	width: 80px;
+	height: 50px;
+}
+
+.slide2 .swiper-button-prev,
+.slide2 .swiper-button-prev:after {
+	position: absolute;
+	top: 190px;
+	left: 0;
+}
+
+.slide2 .swiper-button-next,
+.slide2 .swiper-button-next:after{
+	position: absolute;
+	top: 190px;
+	left: 43px;
+}
+
+.slide2 .swiper-button-prev:after,
+.slide2 .swiper-button-next:after{
+	content: '';
+	display: block;
+	width: 80px;
+	height: 50px;
+}
+.slide2 .swiper-button-prev:after{
+	background: url(../images/0.main/class_prev.png) no-repeat left 10px;
+}
+.slide2 .swiper-button-next:after{
+	background: url(../images/0.main/class_next.png) no-repeat left 10px;
+}
+
+.slide2 .swiper-scrollbar{
+	position: absolute;
+	bottom: 227px;
+	left: 0;
+	background-color: #d1771b;
+	width: 400px;
+	height: 10px;
+}
+
+.slide3 {
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide3 .swiper-slide {
+	text-align: center;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+/* 신규클래스 */
+.slide4 {
+	width: 660px;
+	height: 645px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide4 .swiper-slide {
+	background-color: #fff5de;
+	margin-top:31px;
+	padding-top: 109px;
+	text-align: right;
+	/* Center slide text vertically */
+}
+
+.slide4 .swiper-button-prev,
+.slide4 .swiper-button-next{
+	width: 80px;
+	height: 50px;
+}
+
+.slide4 .swiper-button-prev,
+.slide4 .swiper-button-prev:after{
+	position: absolute;
+	top: 190px;
+	left: 260px;
+}
+
+.slide4 .swiper-button-next,
+.slide4 .swiper-button-next:after{
+	position: absolute;
+	top: 190px;
+	left: 303px;
+}
+
+
+.slide4 .swiper-button-prev:after,
+.slide4 .swiper-button-next:after{
+	content: '';
+	display: block;
+	width: 80px;
+	height: 50px;
+}
+.slide4 .swiper-button-prev:after{
+	background: url(../images/0.main/class_prev.png) no-repeat left 10px;
+}
+.slide4 .swiper-button-next:after{
+	background: url(../images/0.main/class_next.png) no-repeat left 10px;
+}
+
+.slide4 .swiper-scrollbar{
+	position: absolute;
+	bottom: 227px;
+	left: 260px;
+	background-color: #d1771b;
+	width: 400px;
+	height: 10px;
+}
+
+.slide5 {
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide5 .swiper-slide {
+	text-align: center;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}

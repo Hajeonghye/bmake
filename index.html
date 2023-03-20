@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/0.main/icon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>Bmake</title>
+  <!-- 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- main, section2 슬라이드 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"><!--수정X-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+  <!-- section1 css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- 내 css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- 탑 시작 -->
+  <div class="top">
+    <div class="top_inner">
+      <a href="#"><img src="./images/0.main/top_logo.png" alt="탑_로고이미지"></a>
+      <ul class="nav">
+        <li><a href="./sub1.html">브랜드<div class="top_hover"></div></a>
+          <div class="gnb">
+            <ul>
+              <li>
+                <ul>
+                  <li><a href="./sub1.html#sec1">Story<div class="gnb_hover"></div></a></li>
+                  <li><a href="./sub1.html#sec2">Vision<div class="gnb_hover"></div></a></li>
+                  <li><a href="./sub1.html#sec3">For society<div class="gnb_hover"></div></a></li>
+                </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <li><a href="./sub2.html#sec1">Classes<div class="gnb_hover"></div></a></li>
+                  <li><a href="./sub2.html#sec4">Guide etc<div class="gnb_hover"></div></a></li>
+                </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <li><a href="./sub3.html#tab01">Bread<div class="gnb_hover"></div></a></li>
+                  <li><a href="./sub3.html#tab02">Dessert<div class="gnb_hover"></div></a></li>
+                  <li><a href="./sub3.html#tab03">package<div class="gnb_hover"></div></a></li>
+                </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <li><a href="./sub4.html">Events<div class="gnb_hover"></div></a></li>
+                  <li><a href="./sub4.html">Ended events<div class="gnb_hover"></div></a></li>
+                </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <li><a href="./sub5.html">Location<div class="gnb_hover"></div></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub2.html">클래스소개<div class="top_hover"></div></a>
+          <div class="gnb">
+          </div>
+        </li>
+        <li><a href="./sub3.html">제품안내<div class="top_hover"></div></a>
+          <div class="gnb">
+          </div>
+        </li>
+        <li><a href="./sub4.html">이벤트<div class="top_hover"></div></a>
+          <div class="gnb">
+          </div>
+        </li>
+        <li><a href="./sub5.html">찾아오는길<div class="top_hover"></div></a>
+          <div class="gnb">
+          </div>
+        </li>
+      </ul>
+      <ul class="top_right">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 탑 끝 -->
+
+  <!-- 배너 시작 -->
+  <div class="banner">
+    <!-- 슬라이드 구문 -->
+    <div class="swiper-container slide">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#"><img src="./images/0.main/main_banner1.jpg" alt="배너1"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="./sub4.html"><img src="./images/0.main/main_banner2.jpg" alt="배너2"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="./sub4.html"><img src="./images/0.main/main_banner3.jpg" alt="배너3"></a>
+        </div>
+      </div>
+      <!-- 화살표 버튼 -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- 블릿 버튼 -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!-- 배너 끝 -->
+
+  <!-- 본문 시작 -->
+  <section class="sec1">
+    <div class="sec1_inner">
+      <h1>특별한 일상을 위한 <br> BMake의 클래스를 만나보세요</h1>
+      <h3>#Dailyejoy #Weeklybake #Monthlyhappiness</h3>
+      <img src="./images/0.main/section1_img.png" alt="클래스 이미지">
+
+      <div class="spacial" data-aos="fade-left">
+        <h2>Spacial Day</h2>
+        <p>누구나 소중한 사람들의 생일, 기념일 등 우리의 일상적 순간 <br>
+          속에도 언제나 특별해지고 싶은 날이 있죠. <br>
+          직접 만든 디저트로 한 번쯤 꿈 꿔왔던 순간을 만들어보세요. <br>
+          소중한 사람에게도 특별한 선물이 될거예요. </p>
+      </div>
+
+      <div class="ordinary" data-aos="fade-right">
+        <h2>Ordinary Daily</h2>
+        <p>평범한 일상에서도 요리하듯 쉽고 간단하게 베이킹을 할 수 있어요. <br>
+          여유로운 아침이 필요한 바쁜 일상에서 빵의 고소하고 향긋한 향이 <br>
+          당신의 하루를 기분 좋게 만들어 줄거예요.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec2">
+    <div class="sec2_inner">
+
+      <div class="recom">
+        <ul>
+          <li>
+            <h1>추천 클래스</h1>
+            <h3>당신만을 위한 특별한 레시피를 알려드릴게요</h3>
+            <div class="under"></div>
+            <!-- 슬라이드 구문 -->
+            <div class="swiper-container slide2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <h4>오픈 초코 케이크</h4>
+                  <p>
+                    비메이크 클래스 No.1 <br>
+                    초코시트에 딸기와 딸기생크림으로샌드한 케이크로 <br>
+                    누구나 좋아하는 비메이크 케익만의 특별한 케익 입니다.
+                  </p>
+                  <h5>
+                    계절,시즌,과일 수급에 따라 데코 과일은 변경될 수 있는 점, 양해 부탁드립니다
+                  </h5>
+                </div>
+                <div class="swiper-slide">
+                  <h4>플레인 크로아상</h4>
+                  <p>
+                    기본에 충실한 [플레인 크로아상] <br>
+                    가장 기본에 충실한 비메이크 크로아상은 뛰어난 풍미를 지닌 <br>
+                    프랑스 버터시트를 사용해 초승달 모양으로 켜켜이 층을 낸 <br>
+                    정통 크로아상 입니다.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <h4>딸기 순수롤</h4>
+                  <p>
+                    100% 우유생크림과 부드러운 카스텔라,상큼한 딸기의 조화로 <br>
+                    남녀노소 누구나 좋아하는 대표 생크림 롤케익입니다. <br>
+                    선물용으로 추천드려요.
+                  </p>
+                </div>
+              </div>
+              <!-- 화살표 버튼 -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <!-- 슬라이드 -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+            <a href="./sub2_1.html"><span>신청하기</span></a>
+          </li>
+
+          <li>
+            <!-- 슬라이드 구문 -->
+            <div class="swiper-container slide3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/0.main/section2_recomclass1.jpg" alt="오픈 초코 케이크">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/0.main/section2_recomclass2.jpg" alt="플레인 크로아상">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/0.main/section2_recomclass3.jpg" alt="딸기 순수롤">
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+
+        <div class="new">
+          <ul>
+            <li>
+              <!-- 슬라이드 구문 -->
+              <div class="swiper-container slide5">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/0.main/section2_newclass1.jpg" alt="딸기 치즈타르트">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/0.main/section2_newclass2.jpg" alt="상큼 레몬 마카롱">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/0.main/section2_newclass3.jpg" alt="어니언 부추 베이글">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <h1>신규 클래스</h1>
+              <h3>쉽게 구할 수 있는 재료로 집에서도 만들어보세요</h3>
+              <div class="under"></div>
+              <!-- 슬라이드 구문 -->
+              <div class="swiper-container slide4">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <h4>딸기 치즈타르트</h4>
+                    <p>
+                      바삭한 타르트지 위에 부드러운 치즈 크림을 듬뿍 올리고 <br>
+                      촉촉한 화이트 스폰지와 생딸기를 켜켜이 쌓은 타르트입니다. <br>
+                      다양한 식감으로 만족스러운 한 입을 경험할 거예요. <br>
+                    </p>
+                    <h5>
+                      계절,시즌,과일 수급에 따라 데코 과일은 변경될 수 있는 점, 양해 부탁드립니다
+                    </h5>
+                  </div>
+                  <div class="swiper-slide">
+                    <h4>상큼 레몬 마카롱</h4>
+                    <p>
+                      앙증맞은 사이즈의 꼬끄 속에 부드러운 크림과 레몬 잼을 <br>
+                      샌드해 진한 상큼함과 달콤함을 담은 마카롱입니다. <br>
+                      아몬드 가루만 사용해 꼬끄의 고소한 풍미도 남다른 디저트입니다.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <h4>어니언 부추 베이글</h4>
+                    <p>
+                      한입 베어물면 양파의 달큰함과 함께 <br>
+                      부추의 향긋함이 입안 가득 은은하게 느껴집니다. <br>
+                      사이사이 박혀있는 베이컨칩, 양파, 부추, 롤치즈 등 <br>
+                      다양한 재료들의 씹는 맛이 즐거운 든든한 베이글입니다.
+                    </p>
+                  </div>
+                </div>
+                <!-- 화살표 버튼 -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- 슬라이드 -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+              <a href="./sub2_1.html"><span>신청하기</span></a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="sec3">
+    <div class="sec3_inner">
+      <h2>New Magazine</h2>
+      <h4>비메이크의 새로운 소식을 확인해보세요</h4>
+      <ul>
+        <li>
+          <img src="./images/0.main/section3_magazine1.png" alt="매거진1">
+          <div class="black">
+            <p>Bmake의 딸기시즌을 즐겨보세요.<br>
+              23/01/20 ~ 23/04/30</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/0.main/section3_magazine2.png" alt="매거진2">
+          <div class="black">
+            <p>#봄소풍 #데이트 #피크닉세트 <br>
+              비메이크 피크닉 세트로 특별하게</p>
+          </div>
+        </li>
+        <li>
+          <img src="./images/0.main/section3_magazine3.png" alt="매거진3">
+          <div class="black">
+            <p>행복한 날, 비메이크와 함께 <br>
+              더욱 소중한 추억을 만들어보세요.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="sec4">
+    <div class="sec4_title">
+      <h2>수강생 모두가 만족하는 비메이크 클래스</h2>
+      <h4>비메이크의 실제 수강 후기를 확인해보세요</h4>
+      <h3><a href="#" class="more">후기더보기 〉</a></h3>
+    </div>
+    <ul>
+      <li class="insta">
+          <div class="userdetail">
+            <div class="profie_img">
+              <img src="./images/0.main/section4_profile1.jpg" class="cover" alt="프로필1">
+            </div>
+            <p>golove_S2</p>
+          </div>
+          <div class="imgbx">
+            <img src="./images/0.main/section4_photo1.jpg" class="cover" alt="후기1">
+          </div>
+          <div class="action">
+            <div class="left">
+              <img src="./images/0.main/instaicon1.png" alt="하트" class="heart">
+              <img src="./images/0.main/instaicon2.png" alt="코멘트">
+              <img src="./images/0.main/instaicon3.png" alt="쉐어">
+            </div>
+            <div class="right">
+              <img src="./images/0.main/instaicon4.png" alt="북마크">
+            </div>
+          </div>
+          <h4 class="likes">_jjd5872님 외 여러 명이 좋아합니다</h4>
+          <h4 class="message"><b>golove_S2</b>남자친구랑 베이킹클래스 데이트♡ 엄마랑도 또 가고 싶은 곳!!!! <br> <span>#비메이크스튜디오</span>
+            <span>#Bmake</span> <span>#베이킹클래스</span></h4>
+        </li>
+
+        <li class="insta">
+          <div class="userdetail">
+            <div class="profie_img">
+              <img src="./images/0.main/section4_profile2.jpg" class="cover" alt="프로필2">
+            </div>
+            <p>chocoya33</p>
+          </div>
+          <div class="imgbx">
+            <img src="./images/0.main/section4_photo2.jpg" class="cover" alt="후기2">
+          </div>
+          <div class="action">
+            <div class="left">
+              <img src="./images/0.main/instaicon1.png" alt="하트" class="heart">
+              <img src="./images/0.main/instaicon2.png" alt="코멘트">
+              <img src="./images/0.main/instaicon3.png" alt="쉐어">
+            </div>
+            <div class="right">
+              <img src="./images/0.main/instaicon4.png" alt="북마크">
+            </div>
+          </div>
+          <h4 class="likes">ttt_tta_99님 외 여러 명이 좋아합니다</h4>
+          <h4 class="message"><b>chocoya33</b>내가 직접 만든 딸기케이크
+            맛도 비주얼도 모든게 만족만족 대만족♬ <br> <span>#비메이크스튜디오</span>
+            <span>#Bmake</span> <span>#베이킹클래스</span></h4>
+        </li>
+
+        <li class="insta">
+          <div class="userdetail">
+            <div class="profie_img">
+              <img src="./images/0.main/section4_profile3.jpg" class="cover" alt="프로필3">
+            </div>
+            <p>bbangsuni</p>
+          </div>
+          <div class="imgbx">
+            <img src="./images/0.main/section4_photo3.jpg" class="cover" alt="후기3">
+          </div>
+          <div class="action">
+            <div class="left">
+              <img src="./images/0.main/instaicon1.png" alt="하트" class="heart">
+              <img src="./images/0.main/instaicon2.png" alt="코멘트">
+              <img src="./images/0.main/instaicon3.png" alt="쉐어">
+            </div>
+            <div class="right">
+              <img src="./images/0.main/instaicon4.png" alt="북마크">
+            </div>
+          </div>
+          <h4 class="likes">berry_cherry님 외 여러 명이 좋아합니다</h4>
+          <h4 class="message"><b>bbangsuni</b>날씨 좋은 날 소풍가기 ~~~~
+            이제 집에서도 베이킹! 다른 것도 배우고 싶당 <br> <span>#비메이크스튜디오</span>
+            <span>#Bmake</span> <span>#베이킹클래스</span></h4>
+        </li>
+    </ul>
+  </section>
+
+
+  <footer>
+    <div id="footer_inner">
+      <div class="footer_text1">
+        <img src="./images/0.main/footer_logo.png" alt="푸터로고">
+        <p>
+          비메이크 ｜ 대표 : 하정혜 <br>
+          주소 : 부산광역시 중구 12-3 <br>
+          사업자등록번호 : 654-22-09954 <br>
+          개인정보 관리 책임자 : 하정혜
+        </p>
+
+        <ul class="footer_button">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_text2">
+        <p>
+          고객센터 C/S <br>
+          이메일: bmake@gmail.com <br>
+          대표 번호 : 010-1234-5678 <br>
+          채팅상담 : 카카오톡 채널 @Bmakeclass <br>
+          업무시간 : 평일 9:30 ~ 17:30 Break time : 12:00~13:00
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="sns">
+    <a href="#"><img src="./images/0.main/footer_insta.png" alt="인스타그램"></a>
+    <a href="#"><img src="./images/0.main/footer_kakao.png" alt="카카오톡"></a>
+    <a href="#" id="top"><img src="./images/0.main/footer_top.png" alt="탑"></a>
+  </div>
+
+  <!--main 슬라이드 js -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <script src="script/slidebanner.js"></script><!--디자인에 맞게 수정-->
+  <!-- section2 슬라이드 js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- submenu js -->
+  <script src="./script/submenu.js"></script>
+  <!-- section1 슬라이드 js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <!-- 스크롤 js -->
+  <script src="./script/scrolltop.js"></script>
+</body>
+
+</html>

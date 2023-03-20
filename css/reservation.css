@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'NanumSquareRound';
+    background-color: antiquewhite;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    min-width: 1320px;
+}
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
+ul {
+    list-style: none;
+}
+
+.all {
+    width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    border: #ccc 3px solid;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #d1771b;
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.line {
+    width: 600px;
+    margin: 0 auto 20px;
+    border-bottom: #888 1px solid;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+span {
+    color: #d1771b;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 60px
+}
+
+form ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.inform li{
+    width: 511px;
+    margin-bottom: 20px;
+}
+
+.check {
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    padding: 5px 20px;
+    background-color: #417090;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.check2 {
+    position: absolute;
+    top: 78px;
+    left: 500px;
+    padding: 5px 20px;
+    background-color: #417090;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.box {
+    padding: 10px 0;
+    font-size: 18px;
+    width: 600px;
+    height: 30px;
+    background-color: #e5eef5;
+    text-align: center;
+}
+
+.button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button a {
+    padding: 10px 50px;
+    background-color: #d1771b;
+    color: #fff;
+    border-radius: 30px;
+
+}
+
+.button a:hover {
+    background-color: #fff;
+    border: 3px #d1771b solid;
+    color: #000;
+}
+
+
+.inform input {
+    border: none;
+    border-bottom: #888 1px solid;
+    width: 400px;
+    height: 20px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+select {
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+    border: #ccc 1px solid;
+    padding: 10px 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: 600;
+ }
+
+select::-ms-expand{ 
+    display:none;/*for IE10,11*/
+}
+ 
+select {
+    background:url('../images/sub2/arr.png') no-repeat 90% 50%/15px auto;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+	color: rgba(0, 0, 0, 0);
+	display: block;
+	background: url(../images/sub2/arr.png) no-repeat 90% 50%/15px auto;
+	cursor: pointer;
+}
+
+input[type="datetime-local"] {
+    width: 200px;
+    height: 40px;
+    padding: 0 20px;
+    border: #ccc 1px solid;
+    margin-left: 20px;
+    font-weight: 600;
+}
