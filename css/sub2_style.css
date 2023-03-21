@@ -253,6 +253,18 @@ ul {
     line-height: 76px;
 }
 
+.sec2 h4 {
+    margin: 25px 0 20px 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.sec2 h5 {
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .sec2_inner {
     width: 1320px;
     margin: auto;
